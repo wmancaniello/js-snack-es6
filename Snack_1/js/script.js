@@ -32,5 +32,9 @@ for (let i = 1; i < biciCorsa.length; i++) {
     // Se il peso della bici è inferiore a biciLeggera, aggiorno la variabile
     biciLeggera = biciCorsa[i];
   }
-  console.log(biciCorsa[i]);
 }
+
+// STAMPA
+
+console.log(`Bicicletta più leggera è ${biciLeggera.nome} che pesa: ${biciLeggera.peso}kg`);
+
