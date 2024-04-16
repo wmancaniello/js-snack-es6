@@ -19,5 +19,13 @@ Ogni oggetto descriverà una bici da corsa con le seguenti proprietà:
 
 4) Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 
+
+### Snack Bonus
+
+- Scrivere una funzione che accetti tre argomenti, un array e due numeri (a più piccolo di b).
+- La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
+- Usiamo i nuovi metodi degli array foreach o filter.
+
+
 ---
 ***Usiamo i nuovi metodi degli array foreach o filter.***
