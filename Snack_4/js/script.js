@@ -34,7 +34,7 @@ automobili.forEach((auto) => {
 
 // STAMPO
 
-console.log(autoBenzina);
-console.log(autoDiesel);
-console.log(autoDiverse);
+console.log("BENZINA", autoBenzina);
+console.log("DIESEL", autoDiesel);
+console.log("ALTRE", autoDiverse);
 
