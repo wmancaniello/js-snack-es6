@@ -7,3 +7,4 @@
 
 3) Utilizzo forEach per iterare gli oggetti (persone):
     - Creo la frase e di conseguenza pusho nell'array
+    - Utilizzo condizione if per suddividere le categorie

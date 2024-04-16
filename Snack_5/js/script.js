@@ -11,3 +11,14 @@ const persone = [
   { nome: "Antonio", cognome: "Verdi", eta: 12 },
   { nome: "Nadia", cognome: "Verdi", eta: 33 },
 ];
+
+// Nuovo array vuoto
+
+const newArray = [];
+
+// Uso forEach per iterare 
+
+persone.forEach((curPersona) => {
+    let fraseArray = `${curPersona.nome} ${curPersona.cognome}`;
+    // uso if per suddividere
+});
