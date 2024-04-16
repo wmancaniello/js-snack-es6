@@ -6,4 +6,4 @@
 2) Creo un array vuoto da riempire
 
 3) Utilizzo forEach per iterare gli oggetti (persone):
-    - Creo la frase e di conseguenza psgo nell'array
+    - Creo la frase e di conseguenza pusho nell'array
