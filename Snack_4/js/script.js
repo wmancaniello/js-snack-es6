@@ -13,4 +13,28 @@ const automobili = [
   { marca: "Opel", modello: "Corsa", alimentazione: "gpl" },
 ];
 
+// Creo gli array vuoti da "riempire"
+// BENZINA
+const autoBenzina = [];
+// DIESEL
+const autoDiesel = [];
+// DIVERSE
+const autoDiverse = [];
+
+// Utilizzo il metodo forEach per iterare
+automobili.forEach((auto) => {
+    if (auto.alimentazione === "benzina") {
+        autoBenzina.push(auto);
+    } else if (auto.alimentazione === "diesel") {
+        autoDiesel.push(auto)
+    } else {
+        autoDiverse.push(auto)
+    }
+});
+
+// STAMPO
+
+console.log(autoBenzina);
+console.log(autoDiesel);
+console.log(autoDiverse);
 
