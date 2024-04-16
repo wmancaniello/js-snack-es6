@@ -16,9 +16,19 @@ const persone = [
 
 const newArray = [];
 
-// Uso forEach per iterare 
+// Uso forEach per iterare
 
 persone.forEach((curPersona) => {
-    let fraseArray = `${curPersona.nome} ${curPersona.cognome}`;
-    // uso if per suddividere
+  let fraseArray = `${curPersona.nome} ${curPersona.cognome}`;
+  // uso if per suddividere
+  if (curPersona.eta >= 18) {
+    fraseArray += ` può guidare`;
+  } else {
+    fraseArray += ` non può guidare`;
+  }
+  // Infine pusho nell'array
+  newArray.push(fraseArray);
 });
+
+// Stampo
+console.log(newArray);
