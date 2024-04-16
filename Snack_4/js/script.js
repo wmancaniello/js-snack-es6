@@ -1,5 +1,9 @@
-// Array di auto
+// Crea un array composto da 4 automobili.
+// Ogni oggetto automobile avrà le seguenti proprietà: marca, modello e alimentazione (benzina, diesel, gpl, elettrico, metano).
+// Dividi le automobili in 3 array separati: nel primo array solo le auto a benzina, nel secondo solo le auto a diesel, nel terzo il resto delle auto. 
 
+
+// Array di auto
 const automobili = [
   { marca: "Toyota", modello: "Yaris", alimentazione: "ibrida" },
   { marca: "Volkswagen", modello: "Golf", alimentazione: "benzina" },
@@ -34,7 +38,7 @@ automobili.forEach((auto) => {
 
 // STAMPO
 
-console.log("BENZINA", autoBenzina);
-console.log("DIESEL", autoDiesel);
-console.log("ALTRE", autoDiverse);
+console.log("BENZINA:", autoBenzina);
+console.log("DIESEL:", autoDiesel);
+console.log("ALTRE:", autoDiverse);
 
