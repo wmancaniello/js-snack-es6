@@ -25,24 +25,24 @@ console.log(squadreCalcio);
 squadreCalcio.forEach((squadra) => {
   // Genero casualmente i punti tra 0 e 9
   squadra.punti = Math.floor(Math.random() * 10);
-  console.log(`Punti: ${squadra.punti}`);
-
   // Genero casualmente i falli tra 0 e 5
   squadra.falli = Math.floor(Math.random() * 6);
-  console.log(`Falli: ${squadra.falli}`);
+
+  console.log(`Punti: ${squadra.punti} e Falli: ${squadra.falli}`);
 });
 
-// Ora tocca creare un nuovo array con i nomi i fallie i punti
+// Ora tocca creare un nuovo array con i nomi e i falli
 // Utilizzo la destrutturazione
-const nuovoArray = squadreCalcio.map(({ nome, punti, falli }) => ({
+const nuovoArray = squadreCalcio.map(({ nome, falli }) => ({
   nome,
-  punti,
   falli,
 }));
 
+console.log(nuovoArray);
+
 // Stampa
-nuovoArray.forEach((squadra) =>
-  console.log(
-    `Nelle ultime 3 partite la ${squadra.nome} ha fatto ${squadra.punti} punti ed ha subito ${squadra.falli} falli.`
-  )
-);
+// nuovoArray.forEach((squadra) =>
+//   console.log(
+//     `Nelle ultime 3 partite la ${squadra.nome} ha fatto ${squadra.punti} punti ed ha subito ${squadra.falli} falli.`
+//   )
+// );
